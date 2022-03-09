@@ -1,0 +1,5 @@
+name: Lab Feeds
+type: module
+description: 'Lab Feeds.'
+core_version_requirement: ^8.8 || ^9
+package: Custom

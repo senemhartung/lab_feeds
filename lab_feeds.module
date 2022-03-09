@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * @file
+ * Module file for Lab Feeds.
+ */
+
+/**
+ * Implements hook_cron().
+ *
+ * Fetch Feeds.
+ */
+function lab_feeds_cron() {
+  $fetcher = Drupal::service('lab_feeds.feed_fetcher');
+  $fetcher->fetchFeed();
+}

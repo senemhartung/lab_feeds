@@ -1,0 +1,3 @@
+services:
+  lab_feeds.feed_fetcher:
+    class: Drupal\lab_feeds\FeedFetcher
