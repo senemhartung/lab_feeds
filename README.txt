@@ -27,9 +27,3 @@ Approach
 - Save the image associated with the news item if it was not previously saved.
 - Save the news item as a 'Lab Feed' node if it was not previously saved.
 - Delete the old nodes and old images that are not the most recent 2 anymore. 
-
-Further Steps
--------------
-
-- Display 'Lab Feed' nodes in a view as a slideshow.
-- An example can be seen on https://www.interactions.org/, under 'From the Labs' section.
